@@ -2,9 +2,9 @@
 //     Example : length = 5, width = 3
 //     Output : 15
 
-let p = 5;
-let l = 3;
-const recArea = p * l;
+let p: number = 5;
+let l: number = 3;
+const recArea: number = p * l;
 
 console.log(recArea);
 
@@ -12,7 +12,7 @@ console.log(recArea);
 //     Example : length = 5, width = 3
 //     Output : 16
 
-const recPerim = 2 * (p + l);
+const recPerim: number = 2 * (p + l);
 
 console.log(recPerim);
 
@@ -22,9 +22,9 @@ console.log(recPerim);
 
 let r = 5;
 
-const circleDiam = 2 * r;
-const circleArea = Math.PI * (Math.pow(r, 2));
-const circleCir = 2 * Math.PI * r;
+const circleDiam: number = 2 * r;
+const circleArea: number = Math.PI * (Math.pow(r, 2));
+const circleCir:number = 2 * Math.PI * r;
 
 console.log(circleDiam);
 console.log(circleArea);
@@ -34,10 +34,10 @@ console.log(circleCir);
 //     Example : a = 80, b = 65
 //     Output : 35
 
-let a = 80;
-let b = 65;
-const totAngle = 180;
-const angle = totAngle - (a + b);
+let a: number = 80;
+let b: number = 65;
+const totAngle: number = 180;
+const angle: number = totAngle - (a + b);
 
 console.log(angle);
 
@@ -61,9 +61,9 @@ daysConverter(366);;
 
 let days = 400
 
-let dayToYear = Math.floor(days / 365);
-let dayToMonth = Math.floor((days % 365) / 30);
-let dayLeft = Math.floor(days % 365 % 30);
+let dayToYear: number = Math.floor(days / 365);
+let dayToMonth: number = Math.floor((days % 365) / 30);
+let dayLeft: number = Math.floor(days % 365 % 30);
 
 console.log(`${days} day(s) is(are) equal to ${dayToYear} year(s), ${dayToMonth} month(s), and ${dayLeft} day(s)`);
 
